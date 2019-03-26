@@ -2,9 +2,9 @@
 /* CSS Document created by Christy Chatmon, Spring 2019*/
 
 body {
-	font-family: Geneva, Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	line-height: 1.5em;
+	font-family:Helvetica, sans-serif,Arial;
+	font-size: 14px;
+	line-height: 1.2em;
 	color: #FFFFFF;
 	background-color: #007ABF;
 }
@@ -14,25 +14,24 @@ p, li, td {
 	color: #FFFFFF;
 }
 h1 {
-	font-size: 24px;
+	font-size: 28px;
 	padding: 4px 0;
 	font-variant: small-caps;
 	letter-spacing: .5em;
 	line-height: 2em;
 }
 h2 {
-	font-size: 20px;
+	font-size: 22px;
 	padding: 6px;
 	font-variant: small-caps;
 	letter-spacing: 0.5em;
-	background-color: #999933;
+	background-color: #00A3FF;
 }
 h3 {
-	font-size: 17px;
+	font-size: 20px;
 	letter-spacing: 0.5em;
 	border-bottom-width: 1px;
 	border-bottom-style: inset;
-	border-bottom-color: #9B9744;
 	padding: 4px 0;
 	font-variant: small-caps;
 	font-style: italic;
