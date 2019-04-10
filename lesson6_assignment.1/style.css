@@ -2,40 +2,48 @@
 /* CSS Document created by Christy Chatmon, Spring 2019*/
 
 body {
-	font-family:Helvetica, sans-serif,Arial;
-	font-size: 14px;
-	line-height: 1.2em;
-	color: #FFFFFF;
-	background-color: #007ABF;
+	font-family:  Helvetica,Geneva, Arial,sans-serif;
+	font-size: 13px;
+	line-height: 1.6em;
+	color: #007ABF;
+	background-color: #00A3FF;
+	padding: 0 40px;
+	margin: 0;
 }
+
 /* basic text styles ----------------------------  */
 p, li, td {
 	letter-spacing: 0.1em;
-	color: #FFFFFF;
+	padding: 0 40px;
+ color: #FFFFFF;
 }
 h1 {
 	font-size: 28px;
-	padding: 4px 0;
+	padding: 0 40px;
+	color: #FFFFFF;
 	font-variant: small-caps;
 	letter-spacing: .5em;
 	line-height: 2em;
+	margin: 0;
 }
 h2 {
 	font-size: 22px;
-	padding: 6px;
+	color: #FFFFFF;
+	padding: 0 40px;
 	font-variant: small-caps;
 	letter-spacing: 0.5em;
-	background-color: #00A3FF;
 }
 h3 {
 	font-size: 20px;
 	letter-spacing: 0.5em;
+	color: #FFFFFF;
 	border-bottom-width: 1px;
 	border-bottom-style: inset;
-	padding: 4px 0;
+	padding: 0 20px;
 	font-variant: small-caps;
 	font-style: italic;
 }
+
 /* link styles ---------------------------- */
 a:link {
 	font-weight: bold;
@@ -50,13 +58,20 @@ a:visited {
 a:hover {
 	color: #FFFF00;
 }
+
 /* list styles ----------------------------- */
 ul li {
+	list-style-image: url(images/star.png);
 	margin-left: 12px;
 }
+
 ol {
-	margin-left: 14px;
+	margin-left: 60px;
 }
+ol li {
+	padding-left: 0px;
+}
+
 /* table styles -------------------------------------- */
 table {
 	border: solid #565656 1px;
@@ -67,20 +82,66 @@ td {
 }
 th {
 	font-weight: bold;
-	background-color: #007ABF;
+	background-color: #eee;
 	text-align: center;
 	padding: 6px;
 	border: solid #00A3FF 1px;
 }
+
 /* border styles ------------------------------------ */
 hr {
 	border: solid #00A3FF 1px;
 }
-img {
-	border: solid #00A3FF 1px;
-}
+
 iframe {
 	border: solid #00A3FF 1px;
 	padding: 8px;
 	margin: 8px;
+}
+
+/* DIV STYLES FOR PAGE LAYOUT */
+
+
+#container { 
+	width: 900px; 
+	margin: 0 auto; 
+	background-color: #007ABF; 
+	overflow: hidden; 
+}
+#header { 
+	width: 100%; 
+	background-color: #007ABF;
+	border-bottom: 1px solid #FFFFFF;
+	border-top: 1px solid #FFFFFF;
+	border-bottom-width: 1px;
+	border-bottom-style: inset;
+}
+#content { 
+	width: 600px;
+	float: left; 
+	padding-bottom: 40px;
+}
+#sidebar { 
+	width: 278px; 
+	float: left;
+	margin-top: 50px;
+	margin-right: 20px;
+	background: #007ABF;
+	border: 1px solid #00A3FF;
+	border-radius: 12px;
+	box-shadow: 10px 10px 5px #00A3FF;
+}
+#sidebar p{
+	padding: 0;
+	float: right;
+}
+#footer { 
+	clear: both;
+	width: 100%; 
+	background-color: #007ABF;
+	border-top: 1px solid #FFFFFF;
+}
+#footer p {
+	margin: 0;
+	padding: 40px;
 }
