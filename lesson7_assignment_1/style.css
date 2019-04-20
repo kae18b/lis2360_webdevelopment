@@ -2,7 +2,7 @@
 /* CSS Document created by Christy Chatmon, Spring 2019*/
 
 body {
-	font-family:  Helvetica,Geneva, Arial,sans-serif;
+	font-family:  Verdana,Times,Bookman,Lato,Open Sans,Cinzel,Play,Overpass,Helvetica,Geneva, Arial,sans-serif;
 	font-size: 13px;
 	line-height: 1.6em;
 	color: #007ABF;
@@ -14,7 +14,7 @@ body {
 /* basic text styles ----------------------------  */
 p, li, td {
 	letter-spacing: 0.1em;
-	padding: 0 40px;
+	padding: 0 0px;
  color: #FFFFFF;
 }
 h1 {
@@ -62,7 +62,7 @@ a:hover {
 /* list styles ----------------------------- */
 ul li {
 	list-style-image: url(images/star.png);
-	margin-left: 12px;
+	margin-left: 0px;
 }
 
 ol {
@@ -110,23 +110,21 @@ iframe {
 }
 #header { 
 	width: 100%; 
-	background-color: #007ABF;
-	border-bottom: 1px solid #FFFFFF;
+	background-color: #00517F;
 	border-top: 1px solid #FFFFFF;
-	border-bottom-width: 1px;
-	border-bottom-style: inset;
 }
 #content { 
 	width: 600px;
 	float: left; 
 	padding-bottom: 40px;
+	padding-left: 50px
 }
 #sidebar { 
-	width: 278px; 
+	width: 200px; 
 	float: left;
 	margin-top: 50px;
 	margin-right: 20px;
-	background: #007ABF;
+	background: #00517F;
 	border: 1px solid #00A3FF;
 	border-radius: 12px;
 	box-shadow: 10px 10px 5px #00A3FF;
@@ -138,7 +136,7 @@ iframe {
 #footer { 
 	clear: both;
 	width: 100%; 
-	background-color: #007ABF;
+	background-color: #00517F;
 	border-top: 1px solid #FFFFFF;
 }
 #footer p {
